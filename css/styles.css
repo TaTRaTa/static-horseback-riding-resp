@@ -1,0 +1,247 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #ffffff;
+    text-transform:capitalize;
+    overflow: hidden;
+}
+
+header img {
+    height: 100px;
+    width:100px;
+    background-color: transparent;
+    margin-top: 18px;
+    margin-left: 48px;
+    margin-right: 6rem;
+    float: left;
+    
+}
+
+header nav {
+    float: left;
+    margin-top: 3rem;
+    margin-right: 24px;
+}
+
+header ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {    
+    display: inline;
+    float: left;
+    margin: 0 1.5rem;
+
+}
+
+header div  {
+    float: left;
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-right: 24px;
+    border-radius: 30px;
+    padding : 0 6px;
+    border: 4px solid #ce0202;
+}
+
+header div:hover  {
+    float: left;
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-right: 24px;
+    border-radius: 30px;
+    padding : 0 6px;
+    background-color: #ce0202 ;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color: #000000;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #ce0202 ;
+    transition: 0.6s;
+    margin: auto;
+
+}
+
+nav ul li:hover::after{
+    width: 100%;
+
+}
+
+nav ul li::before{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #ce0202 ;
+    transition: 0.6s;
+    margin: auto;
+
+}
+
+nav ul li:hover::before{
+    width: 100%;
+
+}
+
+header div a {
+    text-decoration:none;
+    color: #ce0202 ;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header div a:hover {
+    text-decoration:none;
+    color: #ffffff ;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer{
+    min-height: 30vh;
+    background-color:black;
+    overflow: hidden;
+    padding: 50px 80px;
+    
+}
+
+footer span{
+    margin: 5px 40px;
+    float: left;
+}
+
+
+footer span a {
+    text-decoration:none;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    /* font-size: 24px; */
+    font-weight: bold;
+}
+
+iframe{
+    width:80%;
+    height:50vh;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+    
+.parallax {
+    min-height: 100vh;
+    background-image: url("../image/944888_horse-riding_2560x1440_h.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.parallax2 {
+    min-height: 100vh;
+    background-image: url("../image/131555708.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    text-align: justify;
+    color: #000000;
+    letter-spacing: 0.3rem;
+    background-color: #ffffff;
+    font-weight: bold;
+    opacity: 0.6;
+
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 50px 80px;
+    background-color: #fff;
+    color: #777;
+
+}
+
+
+.fab, .far, .fas {
+    font-size: 50;
+    color: white;
+
+}
+
+.loc{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+#abus, #pe, #tours{
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    
+}
+
+#cntct, footer .loc h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+
+}
+
